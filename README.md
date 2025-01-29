@@ -29,6 +29,7 @@ Ensure you have Python installed on your system. A virtual environment is recomm
 1. **Clone the Repository**
    ```sh
    git clone https://github.com/LmOpe/HNG_BACKEND_STAGE_0
+   cd stage_0
    ```
 
 2. **Create and Activate a Virtual Environment**
