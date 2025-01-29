@@ -4,7 +4,7 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route("/")
-def me_api():
+def simple_api():
     # Get the current timezone aware datetime object in UTC format
     current_datetime = datetime.now(timezone.utc)
     # Format the datetime object as string "2025-01-30T09:30:00Z"
